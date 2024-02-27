@@ -2,8 +2,16 @@
 
 Step to start the Application.
 
-Prerequisites: `require Docker`
+Prerequisites: `require Docker or Node >= 20 installed on your machine`
 
+**Option 1: To run in Dev mode**
+```bash
+cd frontend-responsive-app
+npm install
+npm run dev
+```
+
+**Option 2: Use Docker**
 ```bash
 cd frontend-responsive-app
 docker build -t frontend-responsive-app:1.0 .

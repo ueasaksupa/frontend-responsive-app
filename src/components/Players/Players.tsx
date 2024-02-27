@@ -11,7 +11,7 @@ type PlayersProps = {
 const Players = ({ data }: PlayersProps) => {
    const renderRowData = () => {
       return data.map((el, index) => {
-         let option = index === data.length - 1 ? { underlineWhite: true, contentWhite: true, textPurple: true } : {};
+         const option = index === data.length - 1 ? { underlineWhite: true, contentWhite: true, textPurple: true } : {};
          return (
             <div key={el.number} className={`row player-text-${index + 1}`}>
                <div className="col-md-8 player-text-container">

@@ -11,7 +11,7 @@ type AthletesProps = {
 const Athletes = ({ data }: AthletesProps) => {
    const renderRowData = () => {
       return data.map((el, index) => {
-         let option = index === data.length - 1 ? { underlineWhite: true, contentWhite: true } : {};
+         const option = index === data.length - 1 ? { underlineWhite: true, contentWhite: true } : {};
          return (
             <div key={el.number} className={`row athlete-text-${index + 1}`}>
                <div className="col-xxl-6 col-md-8 athlete-text-container">

@@ -1,0 +1,178 @@
+.player-img-container {
+   position: relative;
+   max-width: 991px;
+   padding: 0;
+}
+
+.player-img-basketball {
+   position: absolute;
+   right: 0px;
+}
+
+.img-basketball {
+   position: relative;
+   width: 100%;
+   z-index: 1000;
+}
+
+.player-header-text {
+   margin-top: 90px;
+   padding-left: 321px;
+   height: 105px;
+   font-size: 90px;
+   font-weight: 400;
+   line-height: 105.47px;
+   color: #e7e7e7;
+}
+
+.plus-basketball-1 {
+   left: 294px;
+   top: 138px;
+}
+
+.plus-basketball-2 {
+   left: 316px;
+   top: 155px;
+   opacity: 30%;
+}
+
+.plus-basketball-3 {
+   right: 223px;
+   top: 401px;
+}
+
+.line-basketball-1 {
+   width: 400px;
+   transform: rotate(-50deg);
+   top: 457px;
+   left: 45px;
+}
+
+.line-basketball-2 {
+   width: 409px;
+   transform: rotate(-50deg);
+   top: 81px;
+   right: 62px;
+}
+
+/* tablet */
+@media (max-width: 1400px) {
+   .player-header-text {
+      margin-top: 40px;
+      padding-left: 30px;
+   }
+
+   .player-img-container {
+      margin-top: 50px;
+   }
+
+   .player-img-basketball {
+      top: -29px;
+   }
+
+   .img-basketball {
+      width: 437px;
+      height: 568px;
+      object-fit: cover;
+      object-position: left;
+   }
+
+   .plus-basketball-1 {
+      left: 202px;
+      top: 79px;
+   }
+
+   .plus-basketball-2 {
+      left: 224px;
+      top: 96px;
+      opacity: 30%;
+   }
+
+   .plus-basketball-3 {
+      display: none;
+   }
+
+   .line-football-1 {
+      width: 320px;
+      transform: rotate(-46deg);
+      top: 25px;
+      right: 104px;
+   }
+
+   .line-basketball-1 {
+      width: 273px;
+      transform: rotate(-50deg);
+      top: 263px;
+      left: 68px;
+   }
+
+   .line-basketball-2 {
+      display: none;
+   }
+}
+
+@media (max-width: 767px) {
+   .img-basketball {
+      width: 302px;
+      height: auto;
+      object-fit: contain;
+      object-position: center;
+   }
+
+   .player-header-text {
+      margin-top: 0;
+      height: 59px;
+      padding-left: 20px;
+      font-size: 50px;
+      line-height: 58.59px;
+   }
+
+   .player-img-container {
+      margin-top: 0;
+      display: flex;
+      justify-content: center;
+   }
+
+   .player-img-basketball {
+      position: relative;
+      display: flex;
+      top: 15px;
+      left: 0;
+   }
+
+   .plus-basketball-1 {
+      left: 71px;
+      top: 16px;
+   }
+
+   .plus-basketball-2 {
+      left: 49px;
+      top: 7px;
+      opacity: 30%;
+   }
+
+   .plus-basketball-3 {
+      display: block;
+      left: 266px;
+      top: 157px;
+   }
+
+   .line-football-1 {
+      width: 266px;
+      top: 12px;
+      right: 22px;
+   }
+
+   .line-basketball-1 {
+      width: 162px;
+      top: 110px;
+      left: -10px;
+   }
+
+   .line-basketball-2 {
+      display: block;
+      width: 117px;
+      top: 24px;
+      left: 158px;
+   }
+}

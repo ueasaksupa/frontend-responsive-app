@@ -1,0 +1,43 @@
+.line {
+   display: flex;
+   position: absolute;
+   border-top: 5px solid #936eea;
+   height: 5px;
+   transform-origin: right;
+   z-index: 100;
+}
+
+.plus {
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   top: 0;
+   right: 0;
+}
+
+.p-line-1::after {
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: block;
+   content: "";
+   width: 15px;
+   height: 3px;
+   background-color: #5c37b7;
+   border: 1px solid #9173e6;
+   border-radius: 10px;
+}
+
+.p-line-2::after {
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: block;
+   content: "";
+   width: 15px;
+   height: 3px;
+   background-color: #5c37b7;
+   border: 1px solid #9173e6;
+   border-radius: 10px;
+   transform: rotate(90deg);
+}

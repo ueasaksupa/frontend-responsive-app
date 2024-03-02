@@ -92,13 +92,6 @@
       display: none;
    }
 
-   .line-football-1 {
-      width: 320px;
-      transform: rotate(-46deg);
-      top: 25px;
-      right: 104px;
-   }
-
    .line-basketball-1 {
       width: 273px;
       transform: rotate(-50deg);
@@ -155,12 +148,6 @@
       display: block;
       left: 266px;
       top: 157px;
-   }
-
-   .line-football-1 {
-      width: 266px;
-      top: 12px;
-      right: 22px;
    }
 
    .line-basketball-1 {

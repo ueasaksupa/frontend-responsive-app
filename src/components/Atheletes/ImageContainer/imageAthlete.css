@@ -27,6 +27,10 @@
    color: #e7e7e7;
 }
 
+.line-football-1 {
+   display: none;
+}
+
 .plus-football-1 {
    display: none;
 }
@@ -53,6 +57,14 @@
    .img-football {
       width: 518px;
       height: 719px;
+   }
+
+   .line-football-1 {
+      display: block;
+      width: 320px;
+      transform: rotate(-46deg);
+      top: 25px;
+      right: 104px;
    }
 
    .plus-football-1 {
@@ -98,15 +110,21 @@
       height: auto;
    }
 
+   .line-football-1 {
+      width: 266px;
+      top: 12px;
+      right: 22px;
+   }
+
    .plus-football-1 {
       display: block;
-      left: 22px;
+      left: 4px;
       top: 27px;
    }
 
    .plus-football-2 {
       display: block;
-      left: 0;
+      left: -18px;
       top: 18px;
       opacity: 30%;
    }
